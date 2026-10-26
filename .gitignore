@@ -6,3 +6,7 @@ data/*
 !.env.example
 .vercel/
 .DS_Store
+
+# Generated locally by the Vercel Marketplace integration.
+.agents/skills/turso-cloud/
+skills-lock.json

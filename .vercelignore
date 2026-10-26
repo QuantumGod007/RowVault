@@ -5,3 +5,6 @@ data
 tests
 Dockerfile
 render.yaml
+
+.agents
+skills-lock.json
