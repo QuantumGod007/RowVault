@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: rowvault
+    runtime: docker
+    plan: starter
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: DATABASE_PATH
+        value: /data/rowvault.sqlite
+    disk:
+      name: rowvault-data
+      mountPath: /data
+      sizeGB: 1

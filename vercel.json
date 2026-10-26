@@ -1,0 +1,13 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "express",
+  "regions": ["bom1"],
+  "headers": [{
+    "source": "/(.*)",
+    "headers": [
+      {"key":"X-Content-Type-Options","value":"nosniff"},
+      {"key":"Referrer-Policy","value":"strict-origin-when-cross-origin"},
+      {"key":"Content-Security-Policy","value":"default-src 'self'; img-src 'self'; style-src 'self'; script-src 'self'; font-src 'self'; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'"}
+    ]
+  }]
+}

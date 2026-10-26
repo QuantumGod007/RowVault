@@ -1,0 +1,16 @@
+{
+  "verified": "2026-10-26",
+  "note": "Static theatrical metadata. Runtime rounding and release cuts differ between sources; the referenced editions are used here. US rating labels, not Indian certifications.",
+  "films": [
+    {"film":"Project Hail Mary","year":2026,"runtime":156,"source":"https://hammer.ucla.edu/programs-events/2026/project-hail-mary","additional":"https://projecthailmarymovie.co.nz/synopsis/"},
+    {"film":"The Odyssey","year":2026,"runtime":173,"source":"https://www.universalpicturesathome.com/press-release/the-odyssey-press-release"},
+    {"film":"F1","year":2025,"runtime":155,"source":"https://tv.apple.com/us/info/f1-the-movie"},
+    {"film":"Sinners","year":2025,"runtime":137,"source":"https://www.classificationoffice.govt.nz/find-a-rating/quick-takes/sinners/"},
+    {"film":"Dune: Part Two","year":2024,"runtime":166,"source":"https://www.classificationoffice.govt.nz/find-a-rating/quick-takes/dune-part-two/"},
+    {"film":"Interstellar","year":2014,"runtime":169,"source":"https://catalog.afi.com/Film/70145-INTERSTELLAR"},
+    {"film":"Inception","year":2010,"runtime":148,"source":"https://catalog.afi.com/Catalog/moviedetails/66167","additional":"https://www.themoviedb.org/movie/27205"},
+    {"film":"The Dark Knight","year":2008,"runtime":152,"source":"https://www.bfi.org.uk/film/c696829d-9680-5529-a70e-1140da039234/the-dark-knight"},
+    {"film":"The Matrix","year":1999,"runtime":136,"source":"https://www.filmlinc.org/films/the-matrix/"},
+    {"film":"The Shawshank Redemption","year":1994,"runtime":142,"source":"https://watch.afi.com/movie/the-shawshank-redemption"}
+  ]
+}

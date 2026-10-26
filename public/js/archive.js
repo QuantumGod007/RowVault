@@ -1,0 +1,138 @@
+// Gallery-only films. These do not have demonstration screenings.
+export const archive = [
+  {
+    "title": "Blade Runner 2049",
+    "year": 2017,
+    "slug": "blade-runner-2049",
+    "poster": "/assets/blade-runner-2049.jpg",
+    "fallback": "/assets/blade-runner-2049-fallback.jpg",
+    "source": "https://www.themoviedb.org/movie/335984?language=en-US",
+    "imageSource": "https://image.tmdb.org/t/p/w500/gajva2L0rPYkEWjzgFlBXCAVBE5.jpg"
+  },
+  {
+    "title": "Fight Club",
+    "year": 1999,
+    "slug": "fight-club",
+    "poster": "/assets/fight-club.jpg",
+    "fallback": "/assets/fight-club-fallback.jpg",
+    "source": "https://www.themoviedb.org/movie/550?language=en-US",
+    "imageSource": "https://image.tmdb.org/t/p/w500/jSziioSwPVrOy9Yow3XhWIBDjq1.jpg"
+  },
+  {
+    "title": "Pulp Fiction",
+    "year": 1994,
+    "slug": "pulp-fiction",
+    "poster": "/assets/pulp-fiction.jpg",
+    "fallback": "/assets/pulp-fiction-fallback.jpg",
+    "source": "https://www.themoviedb.org/movie/680?language=en-US",
+    "imageSource": "https://image.tmdb.org/t/p/w500/vQWk5YBFWF4bZaofAbv0tShwBvQ.jpg"
+  },
+  {
+    "title": "Whiplash",
+    "year": 2014,
+    "slug": "whiplash",
+    "poster": "/assets/whiplash.jpg",
+    "fallback": "/assets/whiplash-fallback.jpg",
+    "source": "https://www.themoviedb.org/movie/244786?language=en-US",
+    "imageSource": "https://image.tmdb.org/t/p/w500/7fn624j5lj3xTme2SgiLCeuedmO.jpg"
+  },
+  {
+    "title": "Gladiator",
+    "year": 2000,
+    "slug": "gladiator",
+    "poster": "/assets/gladiator.jpg",
+    "fallback": "/assets/gladiator-fallback.jpg",
+    "source": "https://www.themoviedb.org/movie/98?language=en-US",
+    "imageSource": "https://image.tmdb.org/t/p/w500/aDb548BOkFfI4nFm0kx8A3Ezh7H.jpg"
+  },
+  {
+    "title": "La La Land",
+    "year": 2016,
+    "slug": "la-la-land",
+    "poster": "/assets/la-la-land.jpg",
+    "fallback": "/assets/la-la-land-fallback.jpg",
+    "source": "https://www.themoviedb.org/movie/313369?language=en-US",
+    "imageSource": "https://image.tmdb.org/t/p/w500/uDO8zWDhfWwoFdKS4fzkUJt0Rf0.jpg"
+  },
+  {
+    "title": "The Prestige",
+    "year": 2006,
+    "slug": "the-prestige",
+    "poster": "/assets/the-prestige.jpg",
+    "fallback": "/assets/the-prestige-fallback.jpg",
+    "source": "https://www.themoviedb.org/movie/1124?language=en-US",
+    "imageSource": "https://image.tmdb.org/t/p/w500/Ag2B2KHKQPukjH7WutmgnnSNurZ.jpg"
+  },
+  {
+    "title": "Arrival",
+    "year": 2016,
+    "slug": "arrival",
+    "poster": "/assets/arrival.jpg",
+    "fallback": "/assets/arrival-fallback.jpg",
+    "source": "https://www.themoviedb.org/movie/329865?language=en-US",
+    "imageSource": "https://image.tmdb.org/t/p/w500/pEzNVQfdzYDzVK0XqxERIw2x2se.jpg"
+  },
+  {
+    "title": "Shutter Island",
+    "year": 2010,
+    "slug": "shutter-island",
+    "poster": "/assets/shutter-island.jpg",
+    "fallback": "/assets/shutter-island-fallback.jpg",
+    "source": "https://www.themoviedb.org/movie/11324?language=en-US",
+    "imageSource": "https://image.tmdb.org/t/p/w500/nrmXQ0zcZUL8jFLrakWc90IR8z9.jpg"
+  },
+  {
+    "title": "The Truman Show",
+    "year": 1998,
+    "slug": "the-truman-show",
+    "poster": "/assets/the-truman-show.jpg",
+    "fallback": "/assets/the-truman-show-fallback.jpg",
+    "source": "https://www.themoviedb.org/movie/37165?language=en-US",
+    "imageSource": "https://image.tmdb.org/t/p/w500/vuza0WqY239yBXOadKlGwJsZJFE.jpg"
+  },
+  {
+    "title": "Goodfellas",
+    "year": 1990,
+    "slug": "goodfellas",
+    "poster": "/assets/goodfellas.jpg",
+    "fallback": "/assets/goodfellas-fallback.jpg",
+    "source": "https://www.themoviedb.org/movie/769?language=en-US",
+    "imageSource": "https://image.tmdb.org/t/p/w500/9OkCLM73MIU2CrKZbqiT8Ln1wY2.jpg"
+  },
+  {
+    "title": "The Grand Budapest Hotel",
+    "year": 2014,
+    "slug": "the-grand-budapest-hotel",
+    "poster": "/assets/the-grand-budapest-hotel.jpg",
+    "fallback": "/assets/the-grand-budapest-hotel-fallback.jpg",
+    "source": "https://www.themoviedb.org/movie/120467?language=en-US",
+    "imageSource": "https://image.tmdb.org/t/p/w500/eWdyYQreja6JGCzqHWXpWHDrrPo.jpg"
+  },
+  {
+    "title": "The Godfather",
+    "year": 1972,
+    "slug": "the-godfather",
+    "poster": "/assets/the-godfather.jpg",
+    "fallback": "/assets/the-godfather-fallback.jpg",
+    "source": "https://www.themoviedb.org/movie/238?language=en-US",
+    "imageSource": "https://image.tmdb.org/t/p/w500/3bhkrj58Vtu7enYsRolD1fZdja1.jpg"
+  },
+  {
+    "title": "Mad Max: Fury Road",
+    "year": 2015,
+    "slug": "mad-max-fury-road",
+    "poster": "/assets/mad-max-fury-road.jpg",
+    "fallback": "/assets/mad-max-fury-road-fallback.jpg",
+    "source": "https://www.themoviedb.org/movie/76341?language=en-US",
+    "imageSource": "https://image.tmdb.org/t/p/w500/ulcAi4dKpAjHwYGS08vNyx9H6I9.jpg"
+  },
+  {
+    "title": "The Silence of the Lambs",
+    "year": 1991,
+    "slug": "the-silence-of-the-lambs",
+    "poster": "/assets/the-silence-of-the-lambs.jpg",
+    "fallback": "/assets/the-silence-of-the-lambs-fallback.jpg",
+    "source": "https://www.themoviedb.org/movie/274?language=en-US",
+    "imageSource": "https://image.tmdb.org/t/p/w500/uS9m8OBk1A8eM9I042bx8XXpqAq.jpg"
+  }
+];

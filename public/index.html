@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111114">
+  <meta name="description" content="Find your film. Claim your seat. A curated Hollywood cinema reservation experience.">
+  <title>RowVault — A better seat for a great story.</title>
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/instrument-serif.css">
+  <link rel="stylesheet" href="/assets/dm-sans.css">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="preload" as="image" href="/assets/dune-part-two-backdrop.jpg">
+  <script src="/js/app.js" type="module"></script>
+</head>
+<body>
+  <a class="skip-link" href="#movies">Skip to films</a>
+  <header class="site-header wrap">
+    <a class="brand" href="#" aria-label="RowVault home"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span>RowVault<span class="brand-dot">®</span></a>
+    <nav aria-label="Main navigation"><a href="#movies" class="nav-active">The films</a><a href="#classics">The classics</a><button id="find-booking" class="nav-bookings">My bookings <span aria-hidden="true">↗</span></button></nav>
+    <span class="header-note"><span class="status-dot"></span> A little escape. A great film.</span>
+  </header>
+  <main>
+    <section class="hero hero-dune" aria-labelledby="featured-title">
+      <img class="hero-art" src="/assets/dune-part-two-backdrop.jpg" alt="Paul Atreides, Chani and the cast of Dune: Part Two against the burning sun of Arrakis" fetchpriority="high">
+      <div class="hero-shade"></div>
+      <div class="hero-inner wrap">
+        <div class="hero-topline"><span class="eyebrow brass">THE BIG SCREEN, REDISCOVERED</span><span class="feature-index">01 <span>/ FEATURE PRESENTATION</span></span></div>
+        <div class="hero-copy"><div class="feature-label"><span></span> A DENIS VILLENEUVE FILM</div><h1 id="featured-title">Dune<span class="hero-edition">Part Two</span></h1><p class="hero-kicker">Destiny is written in <em>sand.</em></p><p class="hero-description">Return to Arrakis. Paul Atreides and Chani face an empire in Denis Villeneuve’s extraordinary desert epic.</p><div class="hero-meta"><span>2024</span><span>Science fiction / Adventure</span><span>2h 46m</span><span class="certificate">PG-13</span></div><button class="primary hero-cta" data-movie="5">Explore showtimes <span aria-hidden="true">↗</span></button></div>
+        <div class="hero-bottom"><span>NOW SHOWING <span class="line"></span> WORLDS WORTH WITNESSING</span><span>Find your film. Claim your seat.</span></div>
+      </div>
+    </section>
+    <div class="programme-bar wrap"><span><span class="status-dot"></span> YOUR NEXT GREAT ESCAPE STARTS HERE</span><span>Curated films. Considered comfort. <span class="brass">Always a good seat.</span></span></div>
+    <section id="movies" class="film-section wrap" aria-labelledby="now-title">
+      <div class="section-heading"><div><p class="eyebrow muted">THE CURRENT PROGRAMME <span class="section-number">/ 01</span></p><h2 id="now-title">Now showing<span class="title-period">.</span></h2></div><div class="section-aside"><p>New worlds. Big feelings. The latest in Hollywood.</p><span class="demo-label">DEMONSTRATION SCREENINGS · ALL TIMES IST</span></div></div>
+      <div id="now-gallery" class="movie-grid" aria-live="polite"><p class="loading">Preparing the programme…</p></div>
+    </section>
+    <section id="classics" class="film-section classics wrap" aria-labelledby="classics-title">
+      <div class="section-heading"><div><p class="eyebrow brass">GREAT CINEMA HAS NO EXPIRY DATE <span class="section-number">/ 02</span></p><h2 id="classics-title">Classics <em>revisited.</em></h2></div><div class="section-aside"><p>The films that stayed with us. Back where they belong.</p><span class="demo-label">SPECIAL RETURN SCREENINGS</span></div></div>
+      <div id="classics-gallery" class="movie-grid" aria-live="polite"></div>
+    </section>
+    <section id="archive" class="film-section archive wrap" aria-labelledby="archive-title">
+      <div class="section-heading"><div><p class="eyebrow muted">MORE WORLDS TO GET LOST IN <span class="section-number">/ 03</span></p><h2 id="archive-title">From the <em>archive.</em></h2></div><div class="section-aside"><p>A few more favourites. Frame by unforgettable frame.</p><span class="demo-label">POSTER COLLECTION · NOT CURRENTLY SHOWING</span></div></div>
+      <div id="archive-gallery" class="movie-grid archive-grid"></div>
+    </section>
+    <section class="closing-note wrap"><span class="eyebrow brass">THE ROWVAULT WAY</span><p>For the love of the <em>big screen.</em></p><span>A love of great stories. A place on the big screen.</span></section>
+  </main>
+  <footer class="site-footer wrap"><a class="brand small" href="#">RowVault<span class="brand-dot">®</span></a><span>An academic cinema experience. All screenings are simulated.</span><button id="show-credits" class="text-button">Film & artwork credits ↗</button></footer>
+  <dialog id="film-dialog" class="film-dialog" aria-labelledby="film-title"></dialog>
+  <dialog id="booking-dialog" class="booking-dialog" aria-labelledby="booking-title"></dialog>
+  <dialog id="lookup-dialog" class="compact-dialog" aria-labelledby="lookup-title"><button class="close" data-close="lookup-dialog" aria-label="Close reservation lookup">×</button><p class="eyebrow brass">YOUR SEAT IS WAITING</p><h2 id="lookup-title">Find your reservation.</h2><p class="muted">A great night, filed under one little reference.</p><form id="lookup-form"><label for="reference">Reservation reference</label><input id="reference" name="reference" placeholder="RV-…" required maxlength="27" autocomplete="off" spellcheck="false"><p id="lookup-error" class="error" role="alert"></p><button class="primary" type="submit">Find reservation <span aria-hidden="true">↗</span></button></form><p class="fine-print">Use the reference on your confirmation ticket. No account needed.</p></dialog>
+  <dialog id="ticket-dialog" class="ticket-dialog" aria-labelledby="ticket-title"></dialog>
+  <dialog id="credits-dialog" class="credits-dialog" aria-labelledby="credits-title"></dialog>
+  <div id="toast" class="toast" role="status" hidden></div>
+</body>
+</html>

@@ -1,0 +1,68 @@
+[
+  {
+    "film": "project-hail-mary",
+    "source": "https://www.themoviedb.org/movie/687163",
+    "poster": "https://image.tmdb.org/t/p/w500/iOb2fjXLbpJgyQXe46n1WtGCnaa.jpg",
+    "credit": "Promotional artwork via TMDB; copyright remains with the respective film rights holders."
+  },
+  {
+    "film": "the-odyssey",
+    "source": "https://www.themoviedb.org/movie/1368337",
+    "poster": "https://image.tmdb.org/t/p/w500/krVa7rKCQb4OBfsr2LTJv4rTz5q.jpg",
+    "credit": "Promotional artwork via TMDB; copyright remains with the respective film rights holders."
+  },
+  {
+    "film": "f1",
+    "source": "https://www.themoviedb.org/movie/911430?language=en-US",
+    "poster": "https://image.tmdb.org/t/p/w500/9PXZIUsSDh4alB80jheWX4fhZmy.jpg",
+    "credit": "Promotional artwork via TMDB; copyright remains with the respective film rights holders."
+  },
+  {
+    "film": "sinners",
+    "source": "https://www.themoviedb.org/movie/1233413",
+    "poster": "https://image.tmdb.org/t/p/w500/fWPgbnt2LSqkQ6cdQc0SZN9CpLm.jpg",
+    "credit": "Promotional artwork via TMDB; copyright remains with the respective film rights holders."
+  },
+  {
+    "film": "dune-part-two",
+    "source": "https://www.themoviedb.org/movie/693134?language=en-US",
+    "poster": "https://image.tmdb.org/t/p/w500/6izwz7rsy95ARzTR3poZ8H6c5pp.jpg",
+    "credit": "Promotional artwork via TMDB; copyright remains with the respective film rights holders.",
+    "backdrop": "https://image.tmdb.org/t/p/original/xOMo8BRK7PfcJv9JCnx7s5hj0PX.jpg",
+    "backdropDimensions": {
+      "width": 3840,
+      "height": 2160
+    }
+  },
+  {
+    "film": "interstellar",
+    "source": "https://www.themoviedb.org/movie/157336-interstellar/images/posters?image_language=en",
+    "poster": "https://image.tmdb.org/t/p/w500/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg",
+    "credit": "Promotional artwork via TMDB; copyright remains with the respective film rights holders.",
+    "backdrop": "https://image.tmdb.org/t/p/w1280/vgnoBSVzWAV9sNQUORaDGvDp7wx.jpg"
+  },
+  {
+    "film": "inception",
+    "source": "https://www.themoviedb.org/movie/27205",
+    "poster": "https://image.tmdb.org/t/p/w500/xlaY2zyzMfkhk0HSC5VUwzoZPU1.jpg",
+    "credit": "Promotional artwork via TMDB; copyright remains with the respective film rights holders."
+  },
+  {
+    "film": "the-dark-knight",
+    "source": "https://www.themoviedb.org/movie/155",
+    "poster": "https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
+    "credit": "Promotional artwork via TMDB; copyright remains with the respective film rights holders."
+  },
+  {
+    "film": "the-matrix",
+    "source": "https://www.themoviedb.org/movie/603",
+    "poster": "https://image.tmdb.org/t/p/w500/dXNAPwY7VrqMAo51EKhhCJfaGb5.jpg",
+    "credit": "Promotional artwork via TMDB; copyright remains with the respective film rights holders."
+  },
+  {
+    "film": "the-shawshank-redemption",
+    "source": "https://www.themoviedb.org/movie/278",
+    "poster": "https://image.tmdb.org/t/p/w500/9cqNxx0GxF0bflZmeSMuL5tnGzr.jpg",
+    "credit": "Promotional artwork via TMDB; copyright remains with the respective film rights holders."
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "name": "rowvault",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A curated cinema reservation experience with Express and SQLite.",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js",
+    "test": "node --test tests/*.test.js",
+    "demo": "node scripts/demo.js"
+  },
+  "dependencies": {
+    "@libsql/client": "^0.18.0",
+    "express": "5.2.1"
+  }
+}

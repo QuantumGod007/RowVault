@@ -1,0 +1,8 @@
+node_modules/
+data/*
+!data/.gitkeep
+.env
+.env.*
+!.env.example
+.vercel/
+.DS_Store
